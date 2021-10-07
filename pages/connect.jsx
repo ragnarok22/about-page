@@ -1,9 +1,8 @@
-import Navbar from "../components/navbar"
+import PageLayout from '../components/layouts/page';
 
 const ConnectPage = () => {
   return (
-    <div>
-      <Navbar />
+    <PageLayout>
       <h1>Conecta</h1>
       <h2>Medios principales</h2>
       <p>De donde se origina mi contenido</p>
@@ -11,7 +10,7 @@ const ConnectPage = () => {
       <p>Hacia donde distribuyo mi contenido</p>
       <h2>Vista previa</h2>
       <p>Lo que verás</p>
-    </div>
+    </PageLayout>
   )
 }
 

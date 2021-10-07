@@ -1,11 +1,10 @@
-import Navbar from "../components/navbar"
+import PageLayout from '../components/layouts/page';
 
 const ToolsPage = () => {
   return (
-    <div>
-      <Navbar />
+    <PageLayout>
       <h1>Herramientas</h1>
-    </div>
+    </PageLayout>
   )
 }
 

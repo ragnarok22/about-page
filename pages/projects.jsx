@@ -1,11 +1,10 @@
-import Navbar from "../components/navbar"
+import PageLayout from '../components/layouts/page';
 
 const ProjectsPage = () => {
   return (
-    <div>
-      <Navbar />
+    <PageLayout>
       <h1>Mis proyectos</h1>
-    </div>
+    </PageLayout>
   )
 }
 
