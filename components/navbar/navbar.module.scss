@@ -1,0 +1,26 @@
+nav.nav {
+  width: 100vw;
+  padding: 1rem 2rem;
+  background: #167740;
+  color: white;
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+      padding: .8rem 0;
+      
+
+      a {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        background: linear-gradient(145deg, #146b3a, #187f44);
+        box-shadow:  5px 5px 30px #136536,
+                    -5px -5px 30px #19894a;
+        padding: 0.7em 1.7em;
+      }
+    }
+  }
+}
