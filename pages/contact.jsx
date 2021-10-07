@@ -1,6 +1,11 @@
+import Navbar from "../components/navbar"
+
 const ContactPage = () => {
   return (
-    <h1>Contacto</h1>
+    <div>
+      <Navbar />
+      <h1>Contacto</h1>
+    </div>
   )
 }
 

@@ -1,6 +1,11 @@
+import Navbar from "../components/navbar"
+
 const ToolsPage = () => {
   return (
-    <h1>Herramientas</h1>
+    <div>
+      <Navbar />
+      <h1>Herramientas</h1>
+    </div>
   )
 }
 

@@ -1,6 +1,9 @@
+import Navbar from "../components/navbar"
+
 const ConnectPage = () => {
   return (
     <div>
+      <Navbar />
       <h1>Conecta</h1>
       <h2>Medios principales</h2>
       <p>De donde se origina mi contenido</p>
