@@ -3,7 +3,8 @@
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  color: #084221;
+  background-color: #167740;
+  color: white;
 
   h1 {
     text-align: center;
@@ -17,9 +18,9 @@
 
   a {
     border-radius: 50px;
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    box-shadow:  18px 18px 36px #d1d1d1,
-                -18px -18px 36px #ffffff;
+    background: linear-gradient(145deg, #146b3a, #187f44);
+    box-shadow:  20px 20px 60px #136536,
+                -20px -20px 60px #19894a;
     padding: 0.7em 1.7em;
 
     &.right {
