@@ -5,7 +5,7 @@ const name = 'Reinier Hernández'
 export const siteTitle = 'Reinier Hernández'
 export const description = 'About Reinier Hernández'
 
-const BaseLayout = ({ children }) => {
+const BaseLayout = ({ children, className }) => {
   return (
     <div>
       <Head>
@@ -13,7 +13,9 @@ const BaseLayout = ({ children }) => {
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {children}
+      <div className={className}>
+        {children}
+      </div>
     </div>
   )
 }

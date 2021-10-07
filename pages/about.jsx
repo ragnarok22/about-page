@@ -1,11 +1,10 @@
-import Navbar from "../components/navbar"
+import PageLayout from "../components/layouts/page"
 
 const AboutPage = () => {
   return (
-    <div>
-      <Navbar />
+    <PageLayout>
       <h1>About me</h1>
-    </div>
+    </PageLayout>
   )
 }
 
