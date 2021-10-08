@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className="mt-4">Reinier Hernández Avila</h1>
 
         <div className="flex flex-grow justify-center">
-          <div className="flex flex-col justify-evenly items-center w-1/3">
+          <div className={styles.link_list}>
             <Link href="/about">
               <a>Sobre mi</a>
             </Link>
@@ -37,7 +37,7 @@ export default function Home() {
             className={`${styles.profile}  w-1/3`}
           />
           
-          <div className="flex flex-col w-1/3 justify-evenly items-center">
+          <div className={styles.link_list}>
             <Link href="/projects">
               <a>Proyectos</a>
             </Link>
@@ -48,6 +48,9 @@ export default function Home() {
               <a>Proyectos</a>
             </Link>
           </div>
+        </div>
+        <div className={styles.ocean}>
+          <div className={styles.wave}></div>
         </div>
       </main>
     </Layout>

@@ -1,8 +1,5 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100%;
+  @apply flex flex-col h-screen w-full;
   background-color: #167740;
   color: white;
 
@@ -32,6 +29,50 @@
     }
   }
 
-  
-}
+  .link_list {
+    @apply flex flex-col w-1/3 h-3/4 justify-evenly items-center;
+  }
 
+  .ocean { 
+    height: 0;
+    width:100%;
+    position:absolute;
+    bottom:-10px;
+    left:0;
+    // background: #167740;
+  }
+  
+  .wave {
+    background: url(/wave.svg) repeat-x;
+    position: absolute;
+    top: -130px;
+    width: 6400px;
+    height: 130px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  
+    &:nth-of-type(2) {
+      top: -175px;
+      animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+  
+  @keyframes swell {
+    0%, 100% {
+      transform: translate3d(0,-25px,0);
+    }
+    50% {
+      transform: translate3d(0,5px,0);
+    }
+  }
+}
