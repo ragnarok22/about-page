@@ -2,6 +2,7 @@
   @apply flex flex-col h-screen w-screen;
   background-color: #167740;
   color: white;
+  position: relative;
 
   h1 {
     @apply text-3xl text-center my-10;

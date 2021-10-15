@@ -6,7 +6,7 @@ export default function Home() {
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
-    setWidth(window.innerWidth);
+    setWidth(window.outerWidth);
   });
 
   if(width <= 680) {
