@@ -1,17 +1,9 @@
 nav.nav {
-  width: 100vw;
-  padding: 1rem 2rem;
   background: #167740;
   color: white;
 
   ul {
-    display: flex;
-    justify-content: space-evenly;
-
     li {
-      padding: .8rem 0;
-      
-
       a {
         width: 100%;
         height: 100%;
@@ -19,7 +11,26 @@ nav.nav {
         background: linear-gradient(145deg, #146b3a, #187f44);
         box-shadow:  5px 5px 15px #136536,
                     -5px -5px 15px #19894a;
-        padding: 0.7em 1.7em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  nav.nav {
+    width: 100vw;
+    padding: 1rem 2rem;
+  
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+  
+      li {
+        padding: .8rem 0;
+  
+        a {
+          padding: 0.7em 1.7em;
+        }
       }
     }
   }

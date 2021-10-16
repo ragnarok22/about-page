@@ -10,6 +10,7 @@ const Navbar = () => {
           <NavButton key={i} url={nav.url} text={nav.text} />
         ))}
       </ul>
+      <a className="fa fa-bars"></a>
     </nav>
   )
 }
