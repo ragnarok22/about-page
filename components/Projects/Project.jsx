@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Project = ({ project }) => {
   return (
-    <div className="flex my-4">
-      <div className="w-16 h-16">
+    <div className="flex my-4 flex-col md:flex-row">
+      <div className="min-w-max w-16 h-16 mb-1">
         <Image
           src={project.logo}
           alt={project.name}
@@ -13,10 +13,10 @@ const Project = ({ project }) => {
           className="rounded-lg"
         />
       </div>
-      <div className="flex flex-col ml-3">
+      <div className="flex flex-col md:ml-3">
         <Link href={project.url}>
           <a className="" target="_blank">
-          <h3 className="text-xl mb-2">{project.name}</h3>
+          <h3 className="text-xl mb-2 md:mb-0">{project.name}</h3>
           </a>
         </Link>
         <p>{project.status}</p>
