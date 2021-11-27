@@ -1,5 +1,4 @@
 .main {
   background: #167740;
-  flex-grow: 1;
-  color: rgb(226, 226, 226);
+  @apply text-gray-100 flex-grow order-1 md:order-2;
 }

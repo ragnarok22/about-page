@@ -1,17 +1,26 @@
 nav.nav {
-  background: #167740;
-  @apply text-white md:w-screen py-4 px-8;
+  @apply text-white order-2 md:order-1 md:w-screen md:py-4 md:px-8;
 
   ul {
     @apply md:flex justify-evenly;
     li {
       @apply md:py-3 px-0;
       a {
-        @apply w-full h-full md:py-3 px-7;
-        border-radius: 50px;
-        background: linear-gradient(145deg, #146b3a, #187f44);
-        box-shadow:  5px 5px 15px #136536,
-                    -5px -5px 15px #19894a;
+        @apply w-full h-full text-green-500 md:py-3 md:px-7 md:text-white md:rounded-3xl;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav.nav {
+    background: #167740;
+    ul {
+      li {
+        a {
+          background: linear-gradient(145deg, #146b3a, #187f44);
+          box-shadow: 5px 5px 15px #136536, -5px -5px 15px #19894a;
+        }
       }
     }
   }
