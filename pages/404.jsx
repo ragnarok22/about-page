@@ -3,10 +3,11 @@ import { Player } from "@lottiefiles/react-lottie-player"
 
 import styles from "../styles/Error.module.scss"
 import lottieNotFound from "../assets/lottie/404.json"
+import BaseLayout from '../components/layouts/base'
 
 export default function Custom404() {
   return (
-    <div className={styles.error_container}>
+    <BaseLayout className={styles.error_container}>
       <Player
         autoplay
         src={lottieNotFound}
@@ -16,6 +17,6 @@ export default function Custom404() {
       <Link href="/">
         <a className="underline text-green-900">Inicio</a>
       </Link>
-    </div>
+    </BaseLayout>
   )
 }
