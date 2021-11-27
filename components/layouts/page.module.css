@@ -1,4 +1,4 @@
 .main {
   background: #167740;
-  @apply text-gray-100 flex-grow order-1 md:order-2;
+  @apply text-gray-100 flex-grow order-1 px-5 md:order-2 md:px-28;
 }
