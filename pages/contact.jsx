@@ -3,7 +3,7 @@ import PageLayout from '../components/layouts/page';
 const ContactPage = () => {
   return (
     <PageLayout>
-      <h1>Contacto</h1>
+      <h1 className="page-title">Contacto</h1>
     </PageLayout>
   )
 }

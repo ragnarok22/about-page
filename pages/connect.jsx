@@ -3,7 +3,7 @@ import PageLayout from '../components/layouts/page';
 const ConnectPage = () => {
   return (
     <PageLayout>
-      <h1>Conecta</h1>
+      <h1 className="page-title">Conecta</h1>
       <h2>Medios principales</h2>
       <p>De donde se origina mi contenido</p>
       <h2>Redes sociales</h2>

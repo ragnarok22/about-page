@@ -4,7 +4,7 @@ import ProjectList from '../components/Projects';
 const ProjectsPage = () => {
   return (
     <PageLayout>
-      <h1 className="text-4xl text-center mt-3">Mis proyectos</h1>
+      <h1 className="page-title">Mis proyectos</h1>
       <ProjectList />
     </PageLayout>
   )
