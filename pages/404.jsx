@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import { Player } from "@lottiefiles/react-lottie-player"
 
-import styles from "../styles/NotFound.module.scss"
+import styles from "../styles/Error.module.scss"
 import lottieNotFound from "../assets/lottie/404.json"
 
 export default function Custom404() {
   return (
-    <div className={styles.not_found}>
+    <div className={styles.error_container}>
       <Player
         autoplay
         src={lottieNotFound}
