@@ -1,0 +1,7 @@
+.not_found {
+  @apply w-screen h-screen flex flex-col justify-center items-center;
+  
+  .lottie {
+    @apply w-96 h-96;
+  }
+}
