@@ -4,7 +4,7 @@ import styles from './page.module.css'
 
 const PageLayout = ({ children, className }) => {
   return (
-    <BaseLayout className="flex flex-col">
+    <BaseLayout className="flex flex-col min-h-screen">
       <Navbar />
       <main className={`${styles.main} ${className}`}>
         { children }
