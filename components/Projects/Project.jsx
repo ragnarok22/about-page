@@ -1,17 +1,32 @@
-import Image from 'next/image';
+import Image from "next/image";
+import Link from "next/link";
 
 const Project = ({ project }) => {
   return (
-    <div className="flex">
-      <Image src={project.logo} alt={project.name} />
-      <div className="flex flex-col">
-        <h3>{project.name}</h3>
-        <small>{project.status}</small>
+    <div className="flex my-4">
+      <div className="w-16 h-16">
+        <Image
+          src={project.logo}
+          alt={project.name}
+          width="64"
+          height="64"
+          className="rounded-lg"
+        />
+      </div>
+      <div className="flex flex-col ml-3">
+        <Link href={project.url}>
+          <a className="" target="_blank">
+          <h3 className="text-xl mb-2">{project.name}</h3>
+          </a>
+        </Link>
+        <p>{project.status}</p>
         <p>{project.description}</p>
-        <p>{project.startDate}/{project.endDate || 'presente'}</p>
+        <p className="text-xs">
+          {project.startDate} / {project.endDate || "presente"}
+        </p>
       </div>
     </div>
   );
-}
+};
 
 export default Project;

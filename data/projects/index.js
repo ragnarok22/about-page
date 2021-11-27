@@ -1,6 +1,7 @@
 import bccImage from './images/buycryptocuba.svg'
 import apimaniaImage from './images/apimania.jpg'
 import cubablogbotImage from './images/cubablogbot.jpg'
+import threadlyImage from './images/threadly.png'
 
 class Status {
   BUILDING = Status("building");
@@ -22,7 +23,7 @@ class Status {
     return allStatus;
   }
 
-  toString() {
+  static toString() {
     return this.getStatus();
   }
 }
@@ -39,7 +40,7 @@ export const projects = [
   },
   {
     name: "APIMania Bot",
-    url: "https://t.me/apimania_bot",
+    url: "https://t.me/apimaniaBot",
     logo: apimaniaImage,
     description:
       "Este bot guarda capturas de páginas web como imágenes, PDF o JSON. Además convierte texto en imágenes y tablas HTML a JSON.",
@@ -49,20 +50,20 @@ export const projects = [
   },
   {
     name: "CubablogBot",
-    url: "https://t.me/cubablogbot",
+    url: "https://t.me/cubablog_bot",
     logo: cubablogbotImage,
     description: "",
-    startDate: "",
-    endDate: "",
+    startDate: "18 de agosto de 2021",
+    endDate: null,
     status: Status.LAUNCHED,
   },
   {
     name: "Threadly App",
     url: "https://threadly.app",
-    logo: bccImage,
+    logo: threadlyImage,
     description: "",
     startDate: "2 de noviembre de 2021",
-    endDate: "",
+    endDate: null,
     status: Status.LAUNCHED,
   },
 ];

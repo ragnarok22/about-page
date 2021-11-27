@@ -5,7 +5,7 @@ import Project from "./Project.jsx";
 
 const ProjectList = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       {projects.map((project, i) => (
         <Project project={project} key={i} />
       ))}
