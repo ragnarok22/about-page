@@ -1,12 +1,15 @@
 nav.nav {
-  @apply text-white order-2 md:order-1 md:py-4 md:px-8;
+  background: linear-gradient(0deg, rgba(22,119,64,1) 0%, rgba(22,119,64,0) 100%);;
+  @apply text-white order-2 w-full sticky px-5 bottom-0 md:relative md:order-1 md:py-4 md:px-8 z-10;
 
   ul {
-    @apply md:flex justify-evenly;
+    background: linear-gradient(145deg, #146b3a, #187f44);
+    box-shadow: 5px 5px 15px #136536, -5px -5px 15px #19894a;
+    @apply flex justify-evenly p-3 rounded-full mb-3 mt-1 md:m-0;
     li {
       @apply md:py-3 px-0;
       a {
-        @apply w-full h-full text-green-500 md:py-3 md:px-7 md:text-white md:rounded-3xl;
+        @apply w-full h-full md:py-3 md:px-7 md:text-white md:rounded-3xl;
       }
     }
   }
@@ -14,8 +17,10 @@ nav.nav {
 
 @media screen and (min-width: 768px) {
   nav.nav {
-    background: #167740;
+    background: transparent;
     ul {
+      background: transparent;
+      box-shadow: none;
       li {
         a {
           background: linear-gradient(145deg, #146b3a, #187f44);
