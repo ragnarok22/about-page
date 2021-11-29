@@ -1,18 +1,22 @@
-export const socials = {
-  twitter: {
-    url: 'https://twitter.com/RagnarokReinier/',
-    icon: 'twitter',
+export const socials = [
+  {
+    text: "Twitter",
+    link: "https://twitter.com/RagnarokReinier/",
+    icon: "twitter",
   },
-  instagram: {
-    url: 'https://www.instagram.com/RagnarokReinier/',
-    icon: 'instagram',
+  {
+    text: "Instagram",
+    link: "https://www.instagram.com/RagnarokReinier/",
+    icon: "instagram",
   },
-  github: {
-    url: 'https://github.com/ragnarok22',
-    icon: 'github',
+  {
+    text: "Github",
+    link: "https://github.com/ragnarok22",
+    icon: "github",
   },
-  linkedin: {
-    url: 'https://www.linkedin.com/in/RagnarokReinier/',
-    icon: 'linkedin',
+  {
+    text: "Linkedin",
+    link: "https://www.linkedin.com/in/RagnarokReinier/",
+    icon: "linkedin",
   },
-};
+];
