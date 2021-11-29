@@ -7,9 +7,9 @@ const Connect = () => {
   return (
     <div>
       <h1 className="page-title">Conecta</h1>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <Section
-          className="w-1/3"
+          className="w-full md:w-1/3"
           title={"Medios principales"}
           subtitle={"De dónde se origina mi contenido"}
         >
@@ -27,7 +27,7 @@ const Connect = () => {
           </div>
         </Section>
         <Section
-          className="w-1/3"
+          className="w-full md:w-1/3"
           title={"Redes sociales"}
           subtitle={"Hacia donde distribuyo mi contenido"}
         >
@@ -43,7 +43,7 @@ const Connect = () => {
           })}
         </Section>
         <Section
-          className="w-1/3"
+          className="w-full md:w-1/3"
           title={"Vista previa"}
           subtitle={"Como se ve el contenido"}
         ></Section>
