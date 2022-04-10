@@ -1,6 +1,6 @@
 import { Player } from "@lottiefiles/react-lottie-player"
 import lottie500 from "../assets/lottie/500.json"
-import BaseLayout from "../components/layouts/base"
+import BaseLayout from "../components/layouts/BaseLayout"
 
 import styles from "../styles/Error.module.scss"
 

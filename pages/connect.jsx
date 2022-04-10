@@ -1,5 +1,5 @@
 import Connect from '../components/connect';
-import PageLayout from '../components/layouts/page';
+import PageLayout from '../components/layouts/PageLayout';
 
 const ConnectPage = () => {
   return (

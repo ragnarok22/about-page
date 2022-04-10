@@ -3,7 +3,7 @@ import { Player } from "@lottiefiles/react-lottie-player"
 
 import styles from "../styles/Error.module.scss"
 import lottieNotFound from "../assets/lottie/404.json"
-import BaseLayout from '../components/layouts/base'
+import BaseLayout from '../components/layouts/BaseLayout'
 
 export default function Custom404() {
   return (
