@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="235.5" viewBox="0 0 164 235.5">
+  <g id="Circuit_graphics_name" data-name="Circuit graphics name" transform="translate(0 -7.5)">
+    <g id="Circuit_component_2" data-name="Circuit component 2">
+      <g id="Elipse_12" data-name="Elipse 12" transform="translate(30 19)" fill="none" stroke="#167740" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Elipse_13" data-name="Elipse 13" transform="translate(41 19)" fill="#1c9d54" stroke="#bbbf4a" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Elipse_14" data-name="Elipse 14" transform="translate(52 19)" fill="none" stroke="#167740" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <circle id="Elipse_15" data-name="Elipse 15" cx="3" cy="3" r="3" transform="translate(63 19)" fill="#167740"/>
+    </g>
+    <g id="Circuit_component" data-name="Circuit component" transform="translate(0 35)">
+      <g id="Elipse_20" data-name="Elipse 20" transform="translate(13 191)" fill="none" stroke="#167740" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Elipse_21" data-name="Elipse 21" transform="translate(24 191)" fill="#1c9d54" stroke="#bbbf4a" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Elipse_22" data-name="Elipse 22" transform="translate(35 191)" fill="none" stroke="#167740" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <circle id="Elipse_23" data-name="Elipse 23" cx="3" cy="3" r="3" transform="translate(46 191)" fill="#167740"/>
+    </g>
+    <g id="Circuit_4" data-name="Circuit 4">
+      <path id="Trazado_16" data-name="Trazado 16" d="M4623,1063h142l20,27" transform="translate(-4623 -1055)" fill="none" stroke="#0a3d20" stroke-width="1"/>
+      <circle id="Elipse_17" data-name="Elipse 17" cx="2" cy="2" r="2" transform="translate(160 33)" fill="#167740"/>
+    </g>
+    <g id="Circuit_2" data-name="Circuit 2" transform="translate(0 35)">
+      <path id="Trazado_18" data-name="Trazado 18" d="M4623,1196h61.667l26.667-27.333" transform="translate(-4623 -1014)" fill="none" stroke="#0a3d20" stroke-width="1"/>
+      <circle id="Elipse_16" data-name="Elipse 16" cx="2" cy="2" r="2" transform="translate(86 153)" fill="#167740"/>
+    </g>
+    <g id="Circuit_3" data-name="Circuit 3">
+      <path id="Trazado_19" data-name="Trazado 19" d="M4623,1085h115l9.5,10.5" transform="translate(-4623 -1052)" fill="none" stroke="#0a3d20" stroke-width="2"/>
+      <circle id="Elipse_18" data-name="Elipse 18" cx="2" cy="2" r="2" transform="translate(123 42)" fill="#167740"/>
+    </g>
+    <g id="Circuit" transform="translate(0 35)">
+      <path id="Trazado_20" data-name="Trazado 20" d="M4623,1250h70.5l22.5-24.5" transform="translate(-4623 -1043)" fill="none" stroke="#0a3d20" stroke-width="2"/>
+      <circle id="Elipse_19" data-name="Elipse 19" cx="2" cy="2" r="2" transform="translate(90 181)" fill="#167740"/>
+    </g>
+  </g>
+</svg>
