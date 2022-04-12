@@ -12,26 +12,6 @@ $quinary: #21c267;
     @apply text-white py-1 px-2 rounded-md;
     box-shadow: #e1e14ad3 -5px 5px;
   }
-
-  .figurita {
-    background-color: #1b8a4b;
-    width: 4px;
-    height: 100px;
-    position: relative;
-    margin-top: -50px;
-
-    &:after {
-      content: "";
-      display: block;
-      border-radius: 100%;
-      width: 10px;
-      height: 10px;
-      margin-left: -3px;
-      background: #26c269;
-      position: absolute;
-      bottom: 0;
-    }
-  }
 }
 
 .main {
@@ -43,6 +23,7 @@ $quinary: #21c267;
   .header {
     background: url("../assets/images/home/circuit-header.svg");
     background-repeat: no-repeat;
+    background-size: contain;
 
     h1 {
       @apply text-xl;
@@ -56,7 +37,30 @@ $quinary: #21c267;
     a {
       @apply text-white mr-3 px-2 py-1 rounded-md border-2;
       background-color: transparent;
+      border-color: $secondary;
     }
+  }
+
+  .image {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 50%;
+  }
+
+  .circuit {
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    background-image: url("../assets/images/home/circuit-hero.svg");
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+  }
+
+  img {
+    z-index: 2;
   }
 }
 
