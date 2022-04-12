@@ -1,0 +1,14 @@
+@import "variables.scss";
+
+.navbar {
+  @apply absolute bottom-8 z-10 flex w-full justify-center;
+  ul {
+    @apply flex rounded-sm justify-between items-center py-2 px-4 text-white text-sm;
+    list-style: none;
+    background-color: $secondary;
+
+    li {
+      @apply mx-1;
+    }
+  }
+}
