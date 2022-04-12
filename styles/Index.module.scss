@@ -1,7 +1,14 @@
+$background: #021109;
+$primary: #0a3d20;
+$secondary: #116134;
+$tertiary: #167740;
+$quaternary: #1c9d54;
+$quinary: #21c267;
+
 .home {
   button,
   a {
-    background-color: #1fa057;
+    background-color: $tertiary;
     @apply text-white py-1 px-2 rounded-md;
     box-shadow: #e1e14ad3 -5px 5px;
   }
@@ -29,13 +36,29 @@
 
 .main {
   @apply flex flex-col h-screen w-full overflow-hidden;
-  background-color: #167740;
+  background-color: $background;
   color: white;
   position: relative;
 
   .header {
+    background: url("../assets/images/home/circuit-header.svg");
+    background-repeat: no-repeat;
+
+    h1 {
+      @apply text-xl;
+    }
+
+    h2 {
+      @apply text-lg;
+      color: $secondary;
+    }
+
     a {
-      @apply text-white mr-3 p-1 rounded-md border-2 border-green-400;
+      @apply text-white mr-3 px-2 py-1 rounded-md border-2;
+      background-color: transparent;
     }
   }
+}
+
+.footer {
 }
