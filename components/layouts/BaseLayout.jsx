@@ -1,3 +1,3 @@
 export default function BaseLayout({ children }) {
-  <div>{children}</div>;
+  return <div>{children}</div>;
 }
