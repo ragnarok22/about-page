@@ -1,10 +1,9 @@
-import Connect from '../components/connect';
 import PageLayout from '../components/layouts/PageLayout';
 
 const ConnectPage = () => {
   return (
     <PageLayout>
-      <Connect />
+      <h1>Connect</h1>
     </PageLayout>
   )
 }

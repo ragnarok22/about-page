@@ -10,7 +10,8 @@ export default function HomeIndex() {
         <a className="mt-8 mb-auto ml-3">Projects</a>
       </Link>
       <div className="flex flex-col items-center">
-        <Image src={draw200x200Image} alt="RagnarokReinier" />
+        <Image src={draw200x200Image} alt="RagnarokReinier" className="z-10" />
+        <div className={styles.figurita}></div>
         <Link href="/tools">
           <a className="mt-5">Tools</a>
         </Link>

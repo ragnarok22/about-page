@@ -5,6 +5,26 @@
     @apply text-white py-1 px-2 rounded-md;
     box-shadow: #e1e14ad3 -5px 5px;
   }
+
+  .figurita {
+    background-color: #1b8a4b;
+    width: 4px;
+    height: 100px;
+    position: relative;
+    margin-top: -50px;
+
+    &:after {
+      content: "";
+      display: block;
+      border-radius: 100%;
+      width: 10px;
+      height: 10px;
+      margin-left: -3px;
+      background: #26c269;
+      position: absolute;
+      bottom: 0;
+    }
+  }
 }
 
 .main {
