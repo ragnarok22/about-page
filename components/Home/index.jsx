@@ -14,18 +14,17 @@ export default function HomeIndex() {
           className={styles.image}
         />
         <div className={styles.circuit}></div>
-      </div>
-      
-      <Link href="/projects">
-        <a className="mt-8 mb-auto ml-3 absolute">Projects</a>
-      </Link>
+        <Link href="/projects">
+          <a className="btn-hover-state absolute left-7 top-3">Projects</a>
+        </Link>
 
-      <Link href="/tools">
-        <a className="mt-5 absolute left-1/2">Tools</a>
-      </Link>
-      <Link href="/connect">
-        <a className="m-auto absolute right-0">Connect</a>
-      </Link>
+        <Link href="/tools">
+          <a className="btn-hover-state absolute right-10 top-44">Tools</a>
+        </Link>
+        <Link href="/connect">
+          <a className="btn-hover-state absolute top-52">Connect</a>
+        </Link>
+      </div>
     </main>
   );
 }

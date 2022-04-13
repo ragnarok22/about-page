@@ -5,7 +5,12 @@
   a {
     background-color: $tertiary;
     @apply text-white py-1 px-2 rounded-md;
-    box-shadow: #e1e14ad3 -5px 5px;
+    border: 2px solid $quaternary;
+    // box-shadow: #e1e14ad3 -5px 5px;
+    transition: all .3s ease-in-out;
+    &:hover{
+      box-shadow: #e1e14ad3 0 3px;
+    }
   }
 }
 
